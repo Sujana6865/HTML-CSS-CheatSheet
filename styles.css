@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 50%;
+   
+}
+
+table thead{
+        background-color: plum;
+}
+
+table, th, td{
+    border: 1px solid black;   
+    border-collapse: collapse; 
+}
+
+#neutral{
+    background-color: beige;
+    font-family: monospace;
+}
+
+.content{
+    background-color: rgba(89, 182, 213, 0.58);
+    position: absolute;
+    top: 40px;
+    left:30px;
+    right: 30px;
+    bottom: 35px;
+}
+
+.padding{
+    background-color: lightgray;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    bottom: 40px;
+    right: 30px;
+}
+.border{
+    background-color:  lightyellow;
+    position: absolute;
+    top: 30px;
+    left: 25px; 
+    right:25px;
+    bottom: 30px;
+}
+.margin{
+    height: 250px;
+    width: 350px;
+    background-color:burlywood;
+    position: relative;
+}
+
+h4{
+    color: rebeccapurple;
+}
+ 
+h1{
+    text-align: center;
+}
+
+h2{
+    color: purple;
+}

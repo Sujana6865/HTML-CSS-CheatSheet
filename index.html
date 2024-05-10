@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>HTML and CSS CHEATSHEET</title>
+</head>
+<body>
+    <header>
+        <h1>HTML AND CSS CHEATSHEET</h1>
+    </header>
+    
+    <main>
+       <div>
+            <h2>HTML</h2>
+            <p>HTML is declarative language. Languages like HTML and CSS are declarative. Declarative language tell an interpreter what to do, not how to do it. </p>
+            <p>Q. What does Semantic HTML do?</p>
+            <p>Semantic HTML uses tags which best convey the underlying meaning of the content that the tag contains.</p>
+            <p>Advantages of Coherent Structure</p>
+            <ol>
+                <li>Readability</li>
+                <li>Accessibility</li>
+                <li>Ease of Styling</li>
+            </ol>
+
+            <!--Div, Section and Article-->
+            <section>
+                <h4>Div, Section and Article</h4>
+                <p>Which to use when? We often time get confused while dealing with this tags. Below we will see the difference between these tags:</p>
+                <ul>
+                    <li>&lt;div&gt; - most general purpose element.</li>
+                    <li>&lt;section&gt; - slightly more specific than a div.</li>
+                    <li>&lt;article&gt; - even more specific than a section.</li>
+                </ul>
+            </section>
+            <!--End of Div, Section and Article-->
+
+            <!--HTML Table-->
+            <section>
+                <h4>HTML Table</h4>
+                <p>HTML &lt;table&gt; tag represents tabular data. It is comprised of rows and columns.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="neutral">&lt;table&gt;</th>
+                            <td>Table</td>
+                            <td>The wrapper element of all HTML table.</td>
+                        </tr>
+                        <tr>
+                            <th id="neutral">&lt;thead&gt;</th>
+                            <td>Table Head</td>
+                            <td>The head of a table with information about table column.</td>
+                        </tr>
+                        <tr>
+                            <th id="neutral">&lt;tbody&gt;</th>
+                            <td>Table Body</td>
+                            <td>The body of the table's main data.</td>
+                        </tr>
+                        <tr>
+                            <th id="neutral">&lt;tr&gt;</th>
+                            <td>Table Row</td>
+                            <td>The row of cells in a table.</td>
+                        </tr>
+                        <tr>
+                            <th id="neutral">&lt;td&gt;</th>
+                            <td>Table Data</td>
+                            <td>The cell of table that contains data.</td>
+                        </tr>
+                        <tr>
+                            <th id="neutral">&lt;tfoot&gt;</th>
+                            <td>Table Foot</td>
+                            <td>The summary of column.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--End of HTML Table-->
+       </div>
+
+       <div>
+            <h2>CSS</h2>
+            <p>CSS stands for Cascading Style Sheet. CSS helps to add colour and styles to the websites. It makes website look pretty.</p>
+            
+            <!--CSS Box Model-->
+            <section class="box">
+                <h4>CSS Box Model</h4>
+                <div class="margin">
+                    <p>Margin</p>
+                    <div class="border">
+                        <p>border</p>
+                        <div class="padding">
+                            <p>Padding</p>
+                            <div class="content">
+                                <p>Content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Content: Content of the box, where text and image appears.</li>
+                    <li>Padding: Clears an area around the content. It is transparent.</li>
+                    <li>Border: It goes around the padding and content.</li>
+                    <li>Margin: Clears an area outside the border. It is also transparent.</li>
+                </ul>
+            </section>
+            <!--End of CSS Box Model-->
+       </div>
+    </main>
+</body>
+</html>
